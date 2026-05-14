@@ -4,7 +4,7 @@
 const int WIDTH = 100; //Almost 100% width of the screen
 const int HEIGHT_PAD = 8;
 const int WIDTH_PAD = 3;
-
+// Hi
 
 
 //Display Content in the centre of the screen
