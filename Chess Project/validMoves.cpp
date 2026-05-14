@@ -5,7 +5,7 @@
 #include "Queen.h"
 #include "King.h"
 #include <cmath>
-#include <iostream>
+
 using namespace std;
 
 bool Pawn::isValidMove(int sr, int sc, int dr, int dc, Board* board) {

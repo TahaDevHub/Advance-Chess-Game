@@ -24,9 +24,6 @@
     <ClInclude Include="game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="hiba_functions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="king.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -65,7 +62,7 @@
     <ClCompile Include="game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hiba_functions.cpp">
+    <ClCompile Include="validMoves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">

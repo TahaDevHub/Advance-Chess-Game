@@ -133,7 +133,6 @@
     <ClInclude Include="bishop.h" />
     <ClInclude Include="board.h" />
     <ClInclude Include="game.h" />
-    <ClInclude Include="hiba_functions.h" />
     <ClInclude Include="king.h" />
     <ClInclude Include="knight.h" />
     <ClInclude Include="libraries.h" />
@@ -148,7 +147,7 @@
   <ItemGroup>
     <ClCompile Include="board.cpp" />
     <ClCompile Include="game.cpp" />
-    <ClCompile Include="hiba_functions.cpp" />
+    <ClCompile Include="validMoves.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="save_and_load_Game.cpp" />
     <ClCompile Include="SFML_GUI.cpp" />
