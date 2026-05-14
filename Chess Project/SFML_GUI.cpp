@@ -1059,30 +1059,7 @@ void sfml_GUI::handleGameClick(sf::Vector2f mp, Board& board)
     }
 }
 
-// =============================================================================
-//  loadSavedGame()
-//
-//  Completely independent of any prior New Game session.
-//
-//  Algorithm:
-//   1. Open and validate savedGame.txt (needs names + at least one move).
-//   2. fullBoardReset() -> clears ALL 64 squares then places starting pieces.
-//   3. Reset every GUI state variable.
-//   4. Replay every saved move in order, tracking turn and move counter.
-//   5. Reopen the file in APPEND mode so future moves extend the history.
-//
-//  Why fullBoardReset() and not bare board.initialize():
-//   Board::initialize() only writes to the standard starting squares; it
-//   never nulls other squares.  If any pieces moved during a prior session
-//   remain in the grid, they stay there as ghosts.  fullBoardReset()
-//   explicitly deletes and nulls all 64 cells first.
-//
-//  Why m_pendingNewGame = false is critical:
-//   If a New Game was started but then the user went back to menu and then
-//   chose Load Game, m_pendingNewGame could still be true.  If it were left
-//   true, the very first click on the board would call resetGame() and
-//   destroy the freshly loaded position.
-// =============================================================================
+
 
 bool sfml_GUI::loadSavedGame(Board& board)
 {
