@@ -208,9 +208,6 @@ void displayCredits(){
 	cout << "\t\t║         ╰┈➤ https://github.com/TahaDevHub  ║\n";
 	cout << "\t\t║                                            ║\n";
 
-	cout << "\t\t║      • Hiba Eman                 (25F-0596)║\n";
-	cout << "\t\t║         ╰┈➤ f250596@cfd.nu.edu.pk          ║\n";
-
 	color(lightYellow, BLACK);
 
 	cout << "\t\t║                                            ║\n";

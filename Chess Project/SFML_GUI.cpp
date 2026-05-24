@@ -505,7 +505,7 @@ void sfml_GUI::renderMenu()
 
     // Footer
     sf::Text footer(m_font,
-        "Muhammad Taha  |  Hiba Eman  |  FAST-NUCES Faisalabad", 14);
+        "Muhammad Taha  |  FAST-NUCES Faisalabad", 14);
     footer.setFillColor({ 80, 80, 105 });
     centreText(footer, WIN_W / 2.f, WIN_H - 22.f);
     m_window.draw(footer);
