@@ -1,5 +1,5 @@
 #include "Board.h"
-#include"taha_functions.h"
+#include"interface.h"
 
 Board::Board()
 {
