@@ -1,5 +1,5 @@
 #include "Game.h"
-#include "taha_functions.h"
+#include "interface.h"
 #include "save_and_load_Game.h"
 
 Game::Game()
