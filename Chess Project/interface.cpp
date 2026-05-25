@@ -1,4 +1,4 @@
-#include "taha_functions.h"
+#include "interface.h"
 // Definitions of functions for Graphical Decorations:
 // Definitions of functions for Graphical Decorations:
 const int WIDTH = 100; //Almost 100% width of the screen

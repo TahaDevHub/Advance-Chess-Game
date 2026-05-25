@@ -48,7 +48,7 @@
     <ClInclude Include="save_and_load_Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="taha_functions.h">
+    <ClInclude Include="interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SFML_GUI.h">
@@ -71,7 +71,7 @@
     <ClCompile Include="save_and_load_Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="taha_functions.cpp">
+    <ClCompile Include="interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SFML_GUI.cpp">

@@ -142,7 +142,7 @@
     <ClInclude Include="rook.h" />
     <ClInclude Include="save_and_load_Game.h" />
     <ClInclude Include="SFML_GUI.h" />
-    <ClInclude Include="taha_functions.h" />
+    <ClInclude Include="interface.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="board.cpp" />
@@ -151,7 +151,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="save_and_load_Game.cpp" />
     <ClCompile Include="SFML_GUI.cpp" />
-    <ClCompile Include="taha_functions.cpp" />
+    <ClCompile Include="interface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="savedGame.txt" />
